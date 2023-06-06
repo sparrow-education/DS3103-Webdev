@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <title>Electric Games API</title>
+</head>
+
+<style>
+    body {
+    /* AAA Certified Ratio: 11.27 */
+    /* https://contrastchecker.com/ */
+    background-color: #2b2d42;
+    color: #f2e9e4;
+    font-family: 'Roboto Mono', monospace, sans-serif !important;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+}
+</style>
+<body>
+    
+
+        <header class="d-flex justify-content-center mb-5 ">
+            <section class="row">
+                <article>
+                    <h1 class="display-1">Electric Games API</h1>
+                </article>
+            </section>
+        </header>
+
+        <main class="container d-flex justify-content-center">
+            <section class="row mb-5">
+                <article class="col">
+                    <h3>Endpoints for Game Controller</h3>
+                    <ul>
+                        <li class="nav-link">
+                            <a href="https://localhost:7215/api/Game/GetAllGames"><input type="button" value="GET All Games" class="btn btn-primary px-5 m-1"><a/><span>https://localhost:7215/api/Game/GetAllGames</span>
+                        </li>
+                        <li class="nav-link">
+                            <a href="https://localhost:7215/api/Game/GetById"><input type="button" value="GET By ID" class="btn btn-primary px-5 m-1"><a/><span>https://localhost:7215/api/Game/GetById</span>
+                        </li>
+                        <li class="nav-link">
+                            <a href="https://localhost:7215/api/Game/GetByName"><input type="button" value="GET By Name" class="btn btn-primary px-5 m-1"><a/><span>https://localhost:7215/api/Game/GetByName</span>
+                        </li>
+                        <li class="nav-link">
+                            <a href="https://localhost:7215/api/Game/Post"><input type="button" value="POST" class="btn btn-success px-5 m-1"><a/><span>https://localhost:7215/api/Game/Post</span>
+                        </li>
+                        <li class="nav-link">
+                            <a href="https://localhost:7215/api/Game/Put"><input type="button" value="PUT" class="btn btn-warning px-5 m-1"><a/><span>https://localhost:7215/api/Game/Put</span>
+                        </li>
+                        <li class="nav-link">
+                            <a href="https://localhost:7215/api/Game/Delete"><input type="button" value="DELETE" class="btn btn-danger px-5 m-1"><a/><span>https://localhost:7215/api/Game/Delete</span>
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                    <h3>Endpoint for ImageUpload Controller</h3>
+                    <ul>
+                        <li class="nav-link">
+                            <a href="https://localhost:7215/api/UploadImage"><input type="button" value="POST" class="btn btn-success px-5 m-1"><a/><span>https://localhost:7215/api/UploadImage</span>
+                        </li>
+                    </ul>
+                </article>
+            </section>
+
+            <section class="row mb-5"">
+                <article class="col-sm-12">
+                    <h3>Info about Game Contract</h3>
+                    <ul>
+                        <li>Id: int</li>
+                        <li>Title: string</li>
+                        <li>Platform: string</li>
+                        <li>ReleaseYear: int</li>
+                        <li>GameImageURL: string</li>
+                    </ul>
+                </article>
+            </section>
+
+            <section>
+                <article>
+                    <h3>Designsystem</h3>
+                    <ul>
+                        <li>Background: #2b2d42</li>
+                        <li>Foreground: #f2e9e4</li>
+                        <li>Font: Roboto Mono, monospace, sans-serif </li>
+                        <li>Font size: 16px</li>
+                    </ul>
+                </article>
+            </section>
+        </main>
+
+
+</body>
+</html>
